@@ -4,7 +4,7 @@ import Auth from "routes/Auth";
 import Home from "routes/Home";
 import Profile from "routes/Profile";
 import Navigation from "components/Navigation";
-import Survey from "./Survey";
+import Survey from "./Survey__";
 
 const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
   return (
